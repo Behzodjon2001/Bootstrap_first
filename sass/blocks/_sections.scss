@@ -1,0 +1,39 @@
+.main_section {
+    .container {
+        .row_app {
+            .row_technology {
+                gap: 80px;
+            }
+            .buuton_learnmore {
+                padding: 5px 30px;
+            }
+            .connect_with {
+                gap: 110px;
+            }
+            .connect_with2 {
+                .welcome3 {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 125%;
+                    /* or 19px */
+                    /* Color/Dark/50 */
+                    color: rgba(33, 37, 41, 0.5);
+                }
+            }
+            .app_card-2 {
+                .partneers {
+                    letter-spacing: 5px;
+                }
+            }
+            .team_all_info {
+                margin-bottom: 130px;
+                .team_personal {
+                    background: #FFFFFF;
+                    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+                    border-radius: 5px;
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+}
