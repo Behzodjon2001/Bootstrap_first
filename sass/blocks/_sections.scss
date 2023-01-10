@@ -1,6 +1,11 @@
 .main_section {
     .container {
         .row_app {
+            .app_card {
+                .ffff {
+                    text-align: center;
+                }
+            }
             .row_technology {
                 gap: 80px;
             }
@@ -9,6 +14,21 @@
             }
             .connect_with {
                 gap: 110px;
+                .connect_info {
+                    max-width: 552px!important;
+                    .w-100 {
+                        width: 170px!important;
+                    }
+                }
+            }
+            .connect_with2 {
+                gap: 110px;
+                .connect_info {
+                    max-width: 552px!important;
+                    .w-100 {
+                        width: 170px!important;
+                    }
+                }
             }
             .connect_with2 {
                 .welcome3 {
@@ -21,6 +41,7 @@
                 }
             }
             .app_card-2 {
+                text-align: center;
                 .partneers {
                     letter-spacing: 5px;
                 }

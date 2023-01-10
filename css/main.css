@@ -85,7 +85,19 @@ img {
 .header .container .under_head {
   padding: 70px 0;
 }
+.header .container .under_head .row_undesr .welcome2 {
+  max-width: 469px !important;
+}
+.header .container .under_head .row_undesr .welcome3 {
+  max-width: 466px !important;
+}
+.header .container .under_head .row_undesr .w-50 {
+  width: 170px !important;
+}
 
+.main_section .container .row_app .app_card .ffff {
+  text-align: center;
+}
 .main_section .container .row_app .row_technology {
   gap: 80px;
 }
@@ -95,6 +107,21 @@ img {
 .main_section .container .row_app .connect_with {
   gap: 110px;
 }
+.main_section .container .row_app .connect_with .connect_info {
+  max-width: 552px !important;
+}
+.main_section .container .row_app .connect_with .connect_info .w-100 {
+  width: 170px !important;
+}
+.main_section .container .row_app .connect_with2 {
+  gap: 110px;
+}
+.main_section .container .row_app .connect_with2 .connect_info {
+  max-width: 552px !important;
+}
+.main_section .container .row_app .connect_with2 .connect_info .w-100 {
+  width: 170px !important;
+}
 .main_section .container .row_app .connect_with2 .welcome3 {
   font-weight: 400;
   font-size: 15px;
@@ -102,6 +129,9 @@ img {
   /* or 19px */
   /* Color/Dark/50 */
   color: rgba(33, 37, 41, 0.5);
+}
+.main_section .container .row_app .app_card-2 {
+  text-align: center;
 }
 .main_section .container .row_app .app_card-2 .partneers {
   letter-spacing: 5px;

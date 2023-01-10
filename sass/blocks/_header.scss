@@ -2,6 +2,17 @@
     .container {
         .under_head {
             padding: 70px 0;
+            .row_undesr {
+                .welcome2 {
+                    max-width: 469px!important;
+                }
+                .welcome3 {
+                    max-width: 466px!important;
+                }
+                .w-50 {
+                    width: 170px!important;
+                }
+            }
         }
     }
 }
