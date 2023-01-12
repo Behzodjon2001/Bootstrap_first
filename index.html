@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/home/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <title>Document</title>
@@ -17,17 +17,17 @@
 <body>
     <header class="header bg-success">
         <div class="container">
-            <div class="row_header d-flex flex-row justify-content-between mb-3 flex-sm-grow-1 align-items-center">
+            <div class="row_header d-flex flex-row justify-content-between flex-sm-grow-1 align-items-center bg-success">
                 <div class="row_logo d-flex p-4 align-items-center gap-3">
                     <img src="./images/Group 1.svg" alt="" class="">
                     <h3 class="text-light">Start</h3>
                 </div>
                 <div class="row_field">
                     <ul class="ul_list d-flex p-4 gap-3 text-light">
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>Services</li>
-                        <li>Contact</li>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="portfolio.html"> Portfolio</a></li>
+                        <li><a href="services.html"> Services</a></li>
+                        <li><a href="#"> Contact</a></li>
                     </ul>
                 </div>
                 <div class="hamburger">
@@ -39,7 +39,7 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="#">Portfolio</a>
+                                <a href="portfolio.html">Portfolio</a>
                             </li>
                             <li>
                                 <a href="#">Services</a>
@@ -52,20 +52,25 @@
 
                 </div>
             </div>
-            <div class="under_head d-flex flex-column flex-sm-row align-items-center justify-content-center flex-column-reverse gap-4">
-                <div class="row_undesr text-light d-flex flex-column gap-3 w-100">
-                    <h5>WELCOME</h5>
-                    <h1 class="welcome2 w-70">Lorem ipsum dolor sit amet consectetur </h1>
-                    <p class="welcome3 w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                    <button type="button" class="btn btn-light w-50 mb-xxl-5">Explore</button>
-                </div>
-                <div class="img-head">
-                    <img src="./images/Group (4).png" alt="">
-                </div>
-            </div>
+
         </div>
     </header>
     <main class="overflow-hidden">
+        <section class="section_header bg-success">
+            <div class="container">
+                <div class="under_head d-flex flex-column flex-sm-row align-items-center justify-content-center flex-column-reverse ">
+                    <div class="row_undesr text-light d-flex flex-column gap-3 w-100">
+                        <h5>WELCOME</h5>
+                        <h1 class="welcome2 w-70">Lorem ipsum dolor sit amet consectetur </h1>
+                        <p class="welcome3 w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+                        <button type="button" class="btn btn-light w-50 mb-xxl-5">Explore</button>
+                    </div>
+                    <div class="img-head">
+                        <img src="./images/Group (4).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="main_section">
             <div class="container">
                 <div class="row_app">
