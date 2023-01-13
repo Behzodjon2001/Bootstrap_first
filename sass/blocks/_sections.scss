@@ -26,6 +26,12 @@
                     text-align: center;
                 }
             }
+            .app_card-c {
+                .ffff {
+                    text-align: center;
+                    width: 400px;
+                }
+            }
             .row_technology {
                 gap: 80px;
             }
@@ -140,6 +146,64 @@
                     color: #212529;
                     .fa-solid {
                         color: #74C69D;
+                    }
+                }
+            }
+        }
+        .row_contact {
+            padding: 80px 20px;
+            .row_form {
+                input {
+                    width: 575px!important;
+                    height: 38px!important;
+                    background: #EEEEEE;
+                    border: 1px solid #000000;
+                    border-radius: 5px;
+                }
+                textarea {
+                    width: 575px!important;
+                    height: 75px;
+                    background: #EEEEEE;
+                    border: 1px solid #000000;
+                    border-radius: 5px;
+                }
+                button {
+                    width: 575px!important;
+                    height: 48px!important;
+                    color: white;
+                    background: #212529;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main_section {
+        .container {
+            padding-left: 0px!important;
+            .row_contact {
+                .row_form {
+                    input {
+                        width: 335px!important;
+                        height: 38px!important;
+                    }
+                    textarea {
+                        width: 335px!important;
+                        height: 141px!important;
+                    }
+                    button {
+                        width: 335px!important;
+                        height: 48px!important;
+                    }
+                }
+                .row_iframe {
+                    .embed-responsive {
+                        .embed-responsive-item {
+                            width: 335px!important;
+                            height: 224px!important;
+                        }
                     }
                 }
             }

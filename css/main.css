@@ -154,6 +154,10 @@ img {
 .main_section .container .row_app .app_card .ffff {
   text-align: center;
 }
+.main_section .container .row_app .app_card-c .ffff {
+  text-align: center;
+  width: 400px;
+}
 .main_section .container .row_app .row_technology {
   gap: 80px;
 }
@@ -265,4 +269,50 @@ img {
 }
 .main_section .container .row_cards .card-1 .row_mark .fa-solid {
   color: #74C69D;
+}
+.main_section .container .row_contact {
+  padding: 80px 20px;
+}
+.main_section .container .row_contact .row_form input {
+  width: 575px !important;
+  height: 38px !important;
+  background: #EEEEEE;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.main_section .container .row_contact .row_form textarea {
+  width: 575px !important;
+  height: 75px;
+  background: #EEEEEE;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.main_section .container .row_contact .row_form button {
+  width: 575px !important;
+  height: 48px !important;
+  color: white;
+  background: #212529;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .main_section .container {
+    padding-left: 0px !important;
+  }
+  .main_section .container .row_contact .row_form input {
+    width: 335px !important;
+    height: 38px !important;
+  }
+  .main_section .container .row_contact .row_form textarea {
+    width: 335px !important;
+    height: 141px !important;
+  }
+  .main_section .container .row_contact .row_form button {
+    width: 335px !important;
+    height: 48px !important;
+  }
+  .main_section .container .row_contact .row_iframe .embed-responsive .embed-responsive-item {
+    width: 335px !important;
+    height: 224px !important;
+  }
 }/*# sourceMappingURL=main.css.map */
